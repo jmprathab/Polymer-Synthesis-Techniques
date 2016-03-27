@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="thin.blog.polymersynthesis.Condensation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Co-ordination Polymerisation"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="1.It is also a subclass of addition polymerization"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="2.It usually involve transition-metal catalysts"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="3.Here, the active species is a coordination complex, which initiates the polymerization by adding to the monomer’s carbon-carbon double bond"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="The most important catalyst for coordination polymerization is so-called Ziegler-Natta catalyst discovered to be effective for alkene polymerization"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="4.Ziegler-Natta catalysts combine transition-metal compounds such as chlorides of titanium with organometallic compounds [TiCl3 with Al(C2H5)3]"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="5.An important property of these catalysts is that they yield stereoregular polymers when higher alkenes are polymerized, e.g., polymerization of propene produces polypropene with high selectivity"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="6.Branching will not occur through this mechanism since no radicals are involved. The active site of the growing chain is the carbon atom directly bonded to the metal"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Example:"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="A Ziegler-Natta catalyst can be produced by mixing solutions of titanium(IV) chloride (TiCl4) and triethylaluminum [Al(CH2CH3)3] dissolved in a hydrocarbon solvent from which both oxygen and water have been rigorously excluded. The product of this reaction is an insoluble olive-colored complex in which the titanium has been reduced to the Ti(III) oxidation state."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="The catalyst formed in this reaction can be described as coordinately unsaturated because there is an open coordination site on the titanium atom. This allows an alkene to act as a Lewis base toward the titanium atom, donating a pair of electrons to form a transition-metal complex."
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/coordination1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="The alkene is then inserted into a Ti-CH2CH3 bond to form a growing polymer chain and a site at which another alkene can bond."
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/coordination2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Thus, the titanium atom provides a template on which a linear polymer with carefully controlled stereochemistry can grow."
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+</ScrollView>

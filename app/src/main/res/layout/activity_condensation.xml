@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="thin.blog.polymersynthesis.Condensation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="1.This type of polymerisation generally involves a repetitive condensation reaction (two molecules join together, resulting loss of small molecules) between two bi-functional monomers"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="2.These polycondensation reactions may result in the loss of some simple molecules as water, alcohol, etc., and lead to the formation of high molecular mass condensation polymers\nIn these reactions, the product of each step is again a bi-functional species and the sequence of condensation goes on"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="3.Since, each step produces a distinct functionalised species and is independent of each other; this process is also called as step growth polymerisation"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="4.The type of end polymer product resulting from a condensation polymerization is dependent on the number of functional end groups of the monomer which can react"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="5.Monomers with only one reactive group terminate a growing chain, and thus give end products with a lower molecular weight"
+            android:textColor="@color/colorPrimary" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="6.Linear polymers are created using monomers with two reactive end groups and monomers with more than two end groups give three dimensional polymers which are cross linked"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="7.Polyester is created through ester linkages between monomers, which involve the functional groups carboxyl and hydroxyl (an organic acid and an alcohol monomer)"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="8.The formation of polyester like terylene or dacron by the interaction of ethylene glycol and terephthalic acid is an example of this type of polymerisation"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="General Chemical Structure"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/condensation" />
+    </LinearLayout>
+
+</ScrollView>
