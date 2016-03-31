@@ -1,4 +1,4 @@
-package thin.blog.polymersynthesis;
+package thin.blog.polymerization;
 
 import org.junit.Test;
 

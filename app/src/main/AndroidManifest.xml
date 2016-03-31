@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="thin.blog.polymersynthesis">
+    package="thin.blog.polymerization">
 
     <application
         android:allowBackup="true"
@@ -15,18 +15,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Techniques"></activity>
+        <activity android:name=".Techniques" />
         <activity
-            android:name=".Addition"
+            android:name=".Bulk"
             android:parentActivityName=".Techniques" />
         <activity
-            android:name=".Condensation"
+            android:name=".Solution"
             android:parentActivityName=".Techniques" />
         <activity
-            android:name=".Coordination"
+            android:name=".Suspension"
             android:parentActivityName=".Techniques" />
         <activity
-            android:name=".Copolymerisation"
+            android:name=".Emulsion"
             android:parentActivityName=".Techniques" />
     </application>
 

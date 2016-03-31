@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Solution">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Emulsion Polymerisation"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="The technique is used for the production of large number of commercial plastics and elastomers.\n\nThe system consists of water insoluble monomer, dispersion medium and emulsifying agents or surfactants (soaps and detergents) and a water soluble initiator (potassium persulphate / H2O2, etc).\n\nThe monomer is dispersed in the aqueous phase, not as a discrete droplets, but as a uniform emulsion.\n\nThe size of monomer droplet is around 0.5 to 10 μm in diameter depending upon the polymerization temperature and rate of agitation."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="The emulsion of monomer in water is stabilized by a surfactant.\n\nA surfactant has a hydrophilic and hydrophobic end in its structure.\n\nWhen it is put into a water, the surfactant molecules gather together into aggregates called micelles.\n\nThe hydrocarbon tails (hydrophobic) orient inwards and heads (hydrophilic) orient outwards into water.\n\nThe monomer molecules diffuse from monomer droplets to water and from water to the hydrocarbon centre of micelles."
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/emulsion1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/emulsion2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Advantages"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="High molecular weight polymers \n\nfast polymerization rates.\n\nallows  removal of heat from the system.\n\n viscosity remains close to that of water and is not dependent on molecular weight.\n\nThe final product can be used as such ,does not  need to be altered or processed"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Disadvantages"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Surfactants and polymerization adjuvants -difficult to remove\n\nFor dry (isolated) polymers, water removal is an energy-intensive process\n\nDesigned to operate at high conversion of monomer to polymer. This can result in significant chain transfer  to polymer.\n\nCan not be used for condensation, ionic or Ziegler-Natta polymerization."
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+</ScrollView>

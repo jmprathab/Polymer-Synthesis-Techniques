@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="thin.blog.polymersynthesis.Condensation">
+    tools:context=".Solution">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,15 +14,15 @@
 
         <include
             android:id="@+id/app_bar"
-            layout="@layout/app_bar"/>
+            layout="@layout/app_bar" />
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:gravity="center"
             android:padding="8dp"
-            android:text="Co-ordination Polymerisation"
+            android:text="Solution Polymerisation"
             android:textColor="@color/colorPrimary" />
 
         <TextView
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="1.It is also a subclass of addition polymerization"
+            android:text="Some disadvantages of bulk polymerization are eliminated in solution polymerization."
             android:textColor="@color/colorPrimary" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="2.It usually involve transition-metal catalysts"
+            android:text="Monomer along with initiator dissolved in solvent, formed polymer stays dissolved."
             android:textColor="@color/colorPrimary" />
 
         <TextView
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="3.Here, the active species is a coordination complex, which initiates the polymerization by adding to the monomer’s carbon-carbon double bond"
+            android:text="The mixture is kept at polymerizaion temperature and constantly agitated."
             android:textColor="@color/colorPrimary" />
 
         <TextView
@@ -54,7 +54,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="The most important catalyst for coordination polymerization is so-called Ziegler-Natta catalyst discovered to be effective for alkene polymerization"
+            android:text="Depending on concentration of monomer the viscosity of solution does not increase."
+            android:textColor="@color/colorPrimary" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="After the reaction is over, the polymer is used as such in the form of polymer solution or the polymer is isolated by evaporating the solvent."
             android:textColor="@color/colorPrimary" />
 
         <TextView
@@ -62,7 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="4.Ziegler-Natta catalysts combine transition-metal compounds such as chlorides of titanium with organometallic compounds [TiCl3 with Al(C2H5)3]"
+            android:text="Polymer so formed can be used for surface coating."
             android:textColor="@color/colorPrimary" />
 
         <TextView
@@ -70,65 +79,51 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="5.An important property of these catalysts is that they yield stereoregular polymers when higher alkenes are polymerized, e.g., polymerization of propene produces polypropene with high selectivity"
-            android:textColor="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="6.Branching will not occur through this mechanism since no radicals are involved. The active site of the growing chain is the carbon atom directly bonded to the metal"
-            android:textColor="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="Example:"
-            android:textColor="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="A Ziegler-Natta catalyst can be produced by mixing solutions of titanium(IV) chloride (TiCl4) and triethylaluminum [Al(CH2CH3)3] dissolved in a hydrocarbon solvent from which both oxygen and water have been rigorously excluded. The product of this reaction is an insoluble olive-colored complex in which the titanium has been reduced to the Ti(III) oxidation state."
-            android:textColor="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="The catalyst formed in this reaction can be described as coordinately unsaturated because there is an open coordination site on the titanium atom. This allows an alkene to act as a Lewis base toward the titanium atom, donating a pair of electrons to form a transition-metal complex."
+            android:text="It is used for the production of Polyacrylonitrile, PVC, Polyacrylic acid, Polyacrylamide, Polyvinyl alcohol, PMMA, Polybutadiene, etc"
             android:textColor="@color/colorPrimary" />
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/coordination1" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="The alkene is then inserted into a Ti-CH2CH3 bond to form a growing polymer chain and a site at which another alkene can bond."
-            android:textColor="@color/colorPrimary" />
+            android:layout_height="200dp"
+            android:src="@drawable/solution" />
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/coordination2" />
+            android:layout_height="200dp"
+            android:src="@drawable/solution2" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="Thus, the titanium atom provides a template on which a linear polymer with carefully controlled stereochemistry can grow."
+            android:text="Advantages"
             android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="The solvent acts as a diluent and helps in facilitating continuous transfer of  heat of polymerization. Therefore temperature control is easy.\n\nThe solvent allows easy stirring as it decreases the viscosity of reaction mixture.\n\nSolvent also facilitates the ease of removal of polymer from the reactor.\n\nViscosity build up is negligible."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Disadvantages"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="To get pure polymer, evaporation of solvent is required additional technology, so it is essential to separate and recover the solvent.\n\nThe method is costly since it uses costly solvents.\n\nPolymers of high molecular weight polymers cannot be formed as the solvent molecules may act as chain terminators.\n\nThe technique gives a smaller yield of polymer per reactor volume, as the solvent waste the reactor space.\n\nThe purity of product is also not as high as that of bulk polymerization. Removal of last traces of solvent is difficult."
+            android:textColor="@color/colorPrimary" />
+
+
     </LinearLayout>
+
 </ScrollView>

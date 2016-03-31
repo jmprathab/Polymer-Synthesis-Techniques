@@ -1,4 +1,4 @@
-package thin.blog.polymersynthesis;
+package thin.blog.polymerization;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.support.v7.widget.Toolbar;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class Condensation extends AppCompatActivity {
+public class Solution extends AppCompatActivity {
 
     @Bind(R.id.app_bar)
     Toolbar toolbar;
@@ -15,10 +15,10 @@ public class Condensation extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_condensation);
+        setContentView(R.layout.activity_solution);
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Condensation Polymerisation");
+        getSupportActionBar().setTitle("Solution Polymerisation");
     }
 }

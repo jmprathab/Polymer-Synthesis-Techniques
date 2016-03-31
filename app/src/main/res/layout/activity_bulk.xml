@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="thin.blog.polymersynthesis.Condensation">
+    tools:context=".Bulk">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,99 +13,102 @@
 
         <include
             android:id="@+id/app_bar"
-            layout="@layout/app_bar"/>
+            layout="@layout/app_bar"></include>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:gravity="center"
             android:padding="8dp"
-            android:text="Copolymerisation"
-            android:textColor="@color/colorPrimary"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="It is a polymerisation reaction in which a mixture of more than one monomeric species is allowed to polymerize and form a copolymer"
-            android:textColor="@color/colorPrimary"/>
+            android:text="Bulk Polymerisation"
+            android:textColor="@color/colorPrimary" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="The copolymer can be made not only by chain growth polymerisation but by step growth polymerisation also"
-            android:textColor="@color/colorPrimary"/>
+            android:text="Polymerization of the undiluted monomer"
+            android:textColor="@color/colorPrimary" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="It contains multiple units of each monomer used in the same polymeric chain"
-            android:textColor="@color/colorPrimary"/>
+            android:text="Carried out by adding a soluble initiator to pure monomer (in liquid state).\nThe mixture is constantly agitated and heated to polymerization temperature.\nOnce the reaction starts, heating is stopped as the reaction is exothermic."
+            android:textColor="@color/colorPrimary" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="Copolymers are formed by this method"
-            android:textColor="@color/colorPrimary"/>
+            android:text="The heat generated is dissipated by circulating water jacket."
+            android:textColor="@color/colorPrimary" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="There are four types of Copolymers"
-            android:textColor="@color/colorPrimary"/>
+            android:text="Viscosity increases dramatically during conversion."
+            android:textColor="@color/colorPrimary" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="1.Alternating Copolymers:\nA copolymer consisting of macromolecules comprising two species of monomeric units in alternating sequence"
-            android:textColor="@color/colorPrimary"/>
+            android:text="The method is used for the polymerization of liquid state monomers."
+            android:textColor="@color/colorPrimary" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            android:text="2.Block copolymers:\nA portion of a macromolecule, comprising many constitutional units, that has at least one feature which is not present in the adjacent portions"
-            android:textColor="@color/colorPrimary"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="3.Statistical Copolyerms:\nStatistical copolymers are copolymers in which the sequence of monomer residues follows a statistical rule. If the probability of finding a given type monomer residue at a particular point in the chain is equal to the mole fraction of that monomer residue in the chain, then the polymer may be referred to as a truly random copolymer"
-            android:textColor="@color/colorPrimary"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="4.Periodic copolymers:\nPolyerms with A and B units arranged in a repeating sequence (e.g. (A-B-A-B-B-A-A-A-A-B-B-B)n)"
-            android:textColor="@color/colorPrimary"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="Example of Copolymerisation:"
-            android:textColor="@color/colorPrimary"/>
+            android:text="It is usually adopted to produce polystyrene, polyvinyl chloride, polymethyl methacrylate and low density polyethylene."
+            android:textColor="@color/colorPrimary" />
 
         <ImageView
             android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/bulk" />
+
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/copolyermisation"/>
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Advantages"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="The system is simple and requires thermal insulation.\n\nThe polymer is obtained pure.\n\nLarge castings may be prepared directly.\n\nMolecular weight  distribution can be easily changed with the use of a chain transfer agent."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Disadvantages"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Heat transfer and mixing become difficult as the viscosity of reaction mass increases.\n\nHighly exothermic.\n\nThe polymerization is obtained with a broad molecular weight distribution due to the high viscosity and lack of good heat transfer.\n\nVery low molecular weights are obtained."
+            android:textColor="@color/colorPrimary" />
 
     </LinearLayout>
 </ScrollView>
