@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".Solution">
+    tools:context="thin.blog.polymersynthesis.Condensation">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,74 +16,86 @@
             android:id="@+id/app_bar"
             layout="@layout/app_bar" />
 
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="1.This type of polymerisation generally involves a repetitive condensation reaction (two molecules join together, resulting loss of small molecules) between two bi-functional monomers"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="2.These polycondensation reactions may result in the loss of some simple molecules as water, alcohol, etc., and lead to the formation of high molecular mass condensation polymers\nIn these reactions, the product of each step is again a bi-functional species and the sequence of condensation goes on"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="3.Since, each step produces a distinct functionalised species and is independent of each other; this process is also called as step growth polymerisation"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="4.The type of end polymer product resulting from a condensation polymerization is dependent on the number of functional end groups of the monomer which can react"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="5.Monomers with only one reactive group terminate a growing chain, and thus give end products with a lower molecular weight"
+            android:textColor="@color/colorPrimary" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="6.Linear polymers are created using monomers with two reactive end groups and monomers with more than two end groups give three dimensional polymers which are cross linked"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="7.Polyester is created through ester linkages between monomers, which involve the functional groups carboxyl and hydroxyl (an organic acid and an alcohol monomer)"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="8.The formation of polyester like terylene or dacron by the interaction of ethylene glycol and terephthalic acid is an example of this type of polymerisation"
+            android:textColor="@color/colorPrimary" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
             android:padding="8dp"
-            android:text="Suspension Polymerisation"
-            android:textColor="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="Liquid or dissolved monomer suspended in liquid phase like water.\n\nInitiators used are monomer soluble e.g. dibenzoyl peroxide.\n\nThus, polymer is produced in heterogeneous medium.\n\nInitiator\n\nThe size of monomer droplets is 50-200 µm in diameter.\n\nThe dispersion is maintained by continuous agitation and the droplets are prevented to coalesce (unite or merge) by adding small quantity of stabilizers.\n\n"
-            android:textColor="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="The stabilizers used are PVA, gelatin, cellulose are used along with inorganic stabilizers such as kaolin, magnesium silicate, aluminum hydroxide, calcium/magnesium phosphate, etc if necessary. \n\nAs it concerns with droplets, each droplet is tiny bulk reactor. The polymerization takes place inside the droplet and product formed being insoluble in water.\n\nThe product separated out in the form of spherical pearls or beads of polymer.\n\nHence the technique is also known as Pearl polymerization / Granular polymerization / Bead polymerization."
-            android:textColor="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="The products are small uniform spheres. They can be used directly for some applications as precursors of ion exchange resins otherwise they can be extruded and chopped to form larger, easily moulded pallets.\n\nThey can be dissolved in a suitable medium for use as adhesives and coatings.\n\nThis technique is used to form PVC, Polyvinyl acetate, Polystyrene, Styrene-divinyl benzene copolymer beads (used for ion exchange) etc."
+            android:text="General Chemical Structure"
             android:textColor="@color/colorPrimary" />
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/suspension" />
-
-        <TextView
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:padding="8dp"
-            android:text="Advantages"
-            android:textColor="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="The process is comparatively cheap as it involves only water instead of solvents.\n\nViscosity increase is negligible.\n\nAgitation and temperature control is easy.\n\nProduct isolation is easy since the product is insoluble in water."
-            android:textColor="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="Disadvantages"
-            android:textColor="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="The method can be adopted only for water insoluble monomers.\n\nIt is difficult to control polymer size.\n\nPolymer purity is low due to the presence of suspending and stabilizing additives that are difficult to remove completely.\n\nSuspension polymerization reaction is highly agitation sensitive.\n\nLarger volume of reactor is taken up by water.\n\nThe method cannot be used for tacky polymers such as elastomers because of the tendency for agglomeration of polymer particles."
-            android:textColor="@color/colorPrimary" />
+            android:src="@drawable/condensation" />
     </LinearLayout>
+
 </ScrollView>

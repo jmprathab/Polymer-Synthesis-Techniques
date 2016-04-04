@@ -1,4 +1,4 @@
-package thin.blog.polymerization;
+package thin.blog.polymersynthesis;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,24 +12,24 @@ public class Techniques extends AppCompatActivity {
     @Bind(R.id.app_bar)
     android.support.v7.widget.Toolbar toolbar;
 
-    @OnClick(R.id.bulk)
-    public void bulk() {
-        startActivity(new Intent(Techniques.this, Bulk.class));
+    @OnClick(R.id.addition)
+    public void addition() {
+        startActivity(new Intent(Techniques.this, Addition.class));
     }
 
-    @OnClick(R.id.solution)
-    public void solution() {
-        startActivity(new Intent(Techniques.this, Solution.class));
+    @OnClick(R.id.condensation)
+    public void condensation() {
+        startActivity(new Intent(Techniques.this, Condensation.class));
     }
 
-    @OnClick(R.id.suspension)
-    public void suspension() {
-        startActivity(new Intent(Techniques.this, Suspension.class));
+    @OnClick(R.id.coordination)
+    public void coordination() {
+        startActivity(new Intent(Techniques.this, Coordination.class));
     }
 
-    @OnClick(R.id.emulsion)
-    public void emulsion() {
-        startActivity(new Intent(Techniques.this, Emulsion.class));
+    @OnClick(R.id.copolymerization)
+    public void copolymerisation() {
+        startActivity(new Intent(Techniques.this, Copolymerisation.class));
     }
 
     @Override
@@ -39,4 +39,5 @@ public class Techniques extends AppCompatActivity {
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);
     }
+
 }

@@ -1,4 +1,4 @@
-package thin.blog.polymerization;
+package thin.blog.polymersynthesis;
 
 import android.content.Intent;
 import android.os.Bundle;

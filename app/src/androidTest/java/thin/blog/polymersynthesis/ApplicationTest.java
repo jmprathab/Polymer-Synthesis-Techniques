@@ -1,4 +1,4 @@
-package thin.blog.polymerization;
+package thin.blog.polymersynthesis;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
