@@ -18,7 +18,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
         android:gravity="center"
-        android:text="Polymer Synthesis Techniques"
+        android:text="Mechanism of Polymerisation"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/colorIcons" />
 
